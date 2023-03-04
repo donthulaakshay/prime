@@ -1,0 +1,104 @@
+<html>
+    <heads>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <style>
+            *{
+                margin: 0px;
+                padding: 0px;
+                outline: 0px;
+            }
+            .nav{
+                display: flex;
+                justify-content: space-between;
+                width: 100%;
+                height: 20vh;
+                background-color: blanchedalmond;
+                align-items: center;
+            }
+            .left img{
+                width: 150px;
+                height: 60px;
+                margin: 10px;
+            }
+            .right{
+                display: flex;
+            }
+            .right div{
+                padding-right: 20px;
+            }
+            .right div a{
+                color: indigo;
+            }
+            .icon{
+                position: relative;
+                width: 5px;
+                height: 20px;
+                border-radius: 50%;
+                border: 2px solid rgb(32, 19, 214);
+                padding: 5px;
+            }
+            .fa-circle-dot{
+                position: absolute;
+                color: olivedrab;
+                top: -4px;
+                right: 0px;
+            }
+            .ban{
+                width: 100%;
+                height: 80vh;
+                background: linear-gradient(rgba(150,160,200,0.7),rgba(150,160,200,0.7)),url("img.jpeg");
+                background-size: 100%;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+            .cont{
+                color: cyan;
+                font-size: 11px;
+                text-align: center;
+            }
+            .cont button{
+                color: blueviolet;
+                background: transparent;
+                padding: 5px 10px;
+                border: 3px solid yellowgreen;
+                border-radius: 10px;
+            }
+            .ftr{
+                background-color: darkolivegreen;
+                width: 100%;
+            }
+            .ftr div{
+                text-align: center;
+                color: rgb(40, 40, 107);
+                font-size: 11pxs;
+            }
+        </style>
+    </heads>
+    <body>
+        <nav class="nav">
+            <div class="left"><img src="vector.jpg" alt="logo"></div>
+            <div class="right">
+                <div><a href="#"><i class="fa-solid fa-house"></i>Home</a></div>
+                <div><a href="#"><i class="fa-solid fa-book"></i>Courses</a></div>
+                <div><a href="#"><i class="fa-regular fa-circle-info"></i>About</a></div>
+                <div><a href="#"><i class="fa-regular fa-address-book"></i>Contact</a></div>
+                <div><a href="#"><i class="fa-solid fa-right-to-bracket"></i>Login</a></div>
+                <div class="icon">
+                    <a href="#"><i class="fa-regular fa-user"></i></a>
+                    <i class="fa-solid fa-circle-dot"></i>
+                </div>
+            </div>
+        </nav>
+        <div class="ban">
+            <div class="cont">
+                <h1>Leading tranining Inst.</h1>
+                <h2>To learn fullstack</h2>
+                <button>apply</button>
+            </div>
+        </div>
+        <footer class="ftr">
+            <div>@ Copyright reserved</div>
+        </footer>
+    </body>
+</html>
